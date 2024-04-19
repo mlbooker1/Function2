@@ -1,0 +1,18 @@
+let button = document.querySelector("button");
+
+
+function squareNums(num) {
+ 		return num * num;
+  }
+
+
+
+
+
+button.addEventListener("click", function() {
+let userInput = document.querySelector("input").value;
+console.log(userInput);
+ let answer = squareNums(userInput);
+    console.log(answer);
+    
+});
